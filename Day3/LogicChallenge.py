@@ -37,4 +37,6 @@ df=df.drop_duplicates()
 # Remove rows where Name is missing
 df["Name"]=df["Name"].drop_duplicates()
 
+
+# Print the final DataFrame.
 print(df)
